@@ -1,0 +1,29 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-header ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.App-header ul li {
+    margin: 0 20px;
+}
+
+.App-header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.App-header ul li a:hover {
+    color: rgba(255, 255, 255, .7);
+}
