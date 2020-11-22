@@ -1,6 +1,7 @@
-// import {getFromStorage} from "../../utils/sessionStorage";
+import {getFromStorage} from "../../utils/localStorage";
  import {LOCALES} from '../i18n/constants';
+ import { STORAGE_KEY } from '../../constants/locale'
 
 export default {
-	locale: LOCALES.ENGLISH,//getFromStorage('siteLang') || LOCALES.ENGLISH,
+	locale: getFromStorage(STORAGE_KEY) || LOCALES.ENGLISH,
 };
